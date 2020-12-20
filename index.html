@@ -11,12 +11,22 @@
             width: 80%;
             display: block;
         }
+        #output {
+            border: 1px solid gray;
+            margin: 2rem;
+            padding: 1rem;
+            width: 80%;
+            height: 10vh;
+            display: block;
+        }
     </style>
 </head>
 <body>
     <h2>Talk banana</h2>
     
     <textarea id="txt-input" placeholder="Give me sentence I will return it in Minion language."></textarea>
+
+    <div id="output" class="output"></div>
     <button id="btn-translate">Translate</button>
     <script src="app.js" type="text/javascript"></script>
 </body>

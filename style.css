@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* color variables */
+:root {
+    --primary-color: #F5E050
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#output {
+    border: 1px solid gray;
+    margin: auto;
+    padding: 2rem;
+    width: 60%;
+    height: 10vh;
+    display: block;
+    margin-top: 2rem;
+}
+
+/* container */
+.container {
+    padding: 0rem 1rem;
+}
+
+/* rem: relative to font size with zoom-in and zoom-out. (preffered) */
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    padding: 0.5rem;
+    /* auto make it center as per screen */
+}
+
+textarea {
+    margin: auto;
+    padding: 0.5rem;
+    display: block;
+    
+    box-sizing: border-box;
+    width: 55%;
+    min-height: 10vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+/* links */
+.link {
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    margin: 2rem 0.5rem 1rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-align: center;
+    margin: 0.5rem 37rem;
+    /* position: fixed; */
+}
+
+.link-primary:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+button {
+    background-color: var(--primary-color);
+    font-family: inherit;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+button:hover {
+    color: white;
+    border: 1px solid yellow;
+    border-color: var(--primary-color);
+}
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    /* border-radius: 0.3rem; */
+    /* border-top-left-radius: 1rem; */
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    width: 100%;
+    color: rgb(44, 41, 41);
+    bottom: 0;
+    position: fixed;
+}
+
+.footer .footer-heading {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer p {
+    padding: 0rem 2rem;
+    text-align: center;
+}
